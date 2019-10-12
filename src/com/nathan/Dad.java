@@ -1,12 +1,12 @@
+package com.nathan;
+
 public class Dad extends Person
 {
 
 	public double dadPreSalary;
 	public double dadPostSalary;
-	public int age;
 	public double rsp;
 	public double billsToPay;
-	public double tfsa;
 	public double entertainment;
 	public double monthlySalary;
 	public double gas;
@@ -29,12 +29,12 @@ public class Dad extends Person
 
 	public int getAge()
 	{
-		return super.age;
+		return super.getAge();
 	}
 
 	public String getGender()
 	{
-		return super.gender;
+		return super.getGender();
 
 	}
 
@@ -79,12 +79,6 @@ public class Dad extends Person
 	{
 		monthlySalary = dadPostSalary / 12;
 		return monthlySalary;
-	}
-
-	public double calculateTfsa()
-	{
-		double newTfsa = tfsa * 1.05;
-		return newTfsa;
 	}
 
 	public double calculateMonthlyBills()

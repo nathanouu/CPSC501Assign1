@@ -1,9 +1,9 @@
+package com.nathan;
+
 public class Yourself extends Person
 {
 
 
-	public int age;
-	public double tfsa;
 	public double entertainment;
 	public double studentLoans;
 	public double gas;
@@ -25,21 +25,17 @@ public class Yourself extends Person
 
 	public int getAge()
 	{
-		return super.age;
+		return super.getAge();
 	}
 
 	public String getGender()
 	{
-		return super.gender;
+		return super.getGender();
 
 	}
 
 
-	public double calculateTfsa()
-	{
-		double newTfsa = tfsa * 1.05;
-		return newTfsa;
-	}
+
 
 	public double monthlyStudentLoans()
 	{

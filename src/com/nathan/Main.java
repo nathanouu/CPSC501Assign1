@@ -1,3 +1,5 @@
+package com.nathan;
+
 import java.util.Scanner;
 
 public class Main
@@ -90,7 +92,7 @@ public class Main
 
 		
 		System.out.println("Your monthly household income, after all taxes and costs are subtracted and all investments added is: " 
-		+ dad.dadMonthlyIncome() + mom.momMonthlyIncome() + yourself.yourselfMonthlyIncome());
+		+ (dad.dadMonthlyIncome() + mom.momMonthlyIncome() + yourself.yourselfMonthlyIncome()));
 
 
 
