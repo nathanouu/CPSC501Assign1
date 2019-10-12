@@ -1,5 +1,3 @@
-package com.nathan;
-
 public class Yourself extends Person
 {
 

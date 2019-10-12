@@ -1,5 +1,3 @@
-package com.nathan;
-
 public class Dad extends Person
 {
 

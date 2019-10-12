@@ -1,5 +1,3 @@
-package com.nathan;
-
 import java.util.Scanner;
 
 public class Main
